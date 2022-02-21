@@ -17,7 +17,7 @@ app.use(morgan("dev"));
 
 app.get("/bruh", (req, res) => {
   console.log("No way this works");
-  res.sendFile("cow.jpg", { root: __dirname });
+  res.sendFile("background.png", { root: __dirname });
 });
 
 app.get("/bruh2", (req, res) => {
